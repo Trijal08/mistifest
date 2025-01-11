@@ -19,6 +19,12 @@
           sync-j="4"
           revision="refs/heads/15" />
 
+  <remote name="GamerBoy1234294"
+          fetch="https://github.com/Trijal08"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/15" />
+
   <remote name="mist-lab"
           fetch="https://gitlab.com/ShukakuZa"
           sync-c="true"
@@ -106,7 +112,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="mist" />
 
   <!-- Build  -->
-  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="mist" >
+  <project path="build/make" name="mist_build" groups="pdk,sysui-studio" remote="GamerBoy1234294" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />
