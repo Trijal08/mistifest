@@ -197,4 +197,5 @@
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="rising" />
   <project path="vendor/pixeloverlays" name="android_vendor_pixeloverlays" remote="rising" />
   <project path="Spoofing" name="vendor_Spoofing" remote="mist" />
+  <project path="vendor/extra" name="vendor_extra" remote="mist" />
 </manifest>
